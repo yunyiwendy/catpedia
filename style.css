@@ -9,6 +9,12 @@ body {
 h1 {
     font-size: 60pt;
     font-family: 'Amatic SC', sans-serif;
+    border-style: double;
+    border-color: #aa3311;
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: inline-block;
 }
 
 h2 {
@@ -24,6 +30,10 @@ p {
     font-size: 15pt;
     font-family: 'Dosis', sans-serif;
 }
-ul li{
-    display: inline-block;
+
+/* Set display to inline-block fixed the problem where the dots are at the very
+   left side of the page. The dots don't show after this. */
+ul {
+    display: inline;
+
 }
