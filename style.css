@@ -37,3 +37,10 @@ ul {
     display: inline;
 
 }
+
+img {
+    max-width: 600px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+}
