@@ -38,6 +38,10 @@ ul {
 
 }
 
+li {
+    font-size: 18pt;
+}
+
 img {
     max-width: 600px;
     max-height: 600px;
