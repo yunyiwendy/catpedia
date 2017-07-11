@@ -4,6 +4,8 @@ body {
     font-size: 14pt;
     color: #503434;
     text-align: center;
+    height: 100%;
+    min-height: 100%;
 }
 
 h1 {
@@ -32,11 +34,10 @@ p {
     font-family: 'Dosis', sans-serif;
 }
 
-/* Set display to inline-block fixed the problem where the dots are at the very
+/* Set display to inline fixed the problem where the dots are at the very
    left side of the page. The dots don't show after this. */
 ul {
     display: inline;
-
 }
 
 li {
@@ -60,7 +61,6 @@ div.menu li a{
     font-family: 'Amatic SC', sans-serif;
     color: #503434;
     text-decoration: none;
-    text-align: center;
     padding: 14px 16px;
 }
 
@@ -74,5 +74,4 @@ div.breed_menu a{
 footer {
     font-size: 10pt;
     font-family: 'Dosis', sans-serif;
-    float: bottom;
 }
