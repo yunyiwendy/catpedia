@@ -23,7 +23,8 @@ h2 {
 }
 
 h3 {
-    font-size: 20pt;
+    font-size: 30pt;
+    font-family: 'Caveat', sans-serif;
 }
 
 p {
@@ -49,12 +50,14 @@ img {
     height: auto;
 }
 
-div.menu {
-
+div.menu li{
+    font-size: 30pt;
+    font-family: 'Amatic SC', sans-serif;
 }
 
 div.breed_menu {
-
+    font-size: 24pt;
+    font-family: 'Amatic SC', sans-serif;
 }
 
 footer {
