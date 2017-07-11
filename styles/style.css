@@ -50,17 +50,29 @@ img {
     height: auto;
 }
 
-div.menu li{
-    font-size: 30pt;
-    font-family: 'Amatic SC', sans-serif;
+div.menu li {
+    float: left;
+    list-style-type: none;
 }
 
-div.breed_menu {
+div.menu li a{
+    font-size: 30pt;
+    font-family: 'Amatic SC', sans-serif;
+    color: #503434;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+div.breed_menu a{
     font-size: 24pt;
     font-family: 'Amatic SC', sans-serif;
+    color: #503434;
+    text-decoration: none;
 }
 
 footer {
     font-size: 10pt;
     font-family: 'Dosis', sans-serif;
+    float: bottom;
 }
