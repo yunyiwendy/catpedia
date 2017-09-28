@@ -71,6 +71,11 @@ div.breed_menu a{
     text-decoration: none;
 }
 
+div.guide_menu a{
+    color: #503434;
+    text-decoration: none;
+}
+
 footer {
     font-size: 10pt;
     font-family: 'Dosis', sans-serif;
